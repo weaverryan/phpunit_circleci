@@ -77,4 +77,9 @@ class Dinosaur
     {
         return $this->isCarnivorous;
     }
+
+    public function setEnclosure(Enclosure $enclosure)
+    {
+        $this->enclosure = $enclosure;
+    }
 }
